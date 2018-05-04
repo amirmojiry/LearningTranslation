@@ -1,0 +1,35 @@
+* {
+	font-family: Vazir, Tahoma;
+	font-weight:normal;
+}
+body {
+	margin: 50px;
+	padding: 20px;
+}
+.masterTooltip:hover {
+	background-color: yellow;
+}
+.tooltip {
+	direction: ltr;
+	display:none;
+	font-size:15px;
+	text-align: justify;
+	position:absolute;
+	border:1px solid #333;
+	border-radius:5px;
+	padding:10px;
+	color:white;
+	background-color:#161616;
+}
+.poem {
+	text-align: center;
+}
+
+@font-face {
+  font-family: Vazir;
+  src: url('Vazir.eot');
+  src: url('Vazir.eot?#iefix') format('embedded-opentype'),
+       url('Vazir.woff') format('woff'),
+       url('Vazir.ttf') format('truetype');
+  font-weight: normal;
+}
